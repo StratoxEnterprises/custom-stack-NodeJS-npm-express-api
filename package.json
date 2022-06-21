@@ -1,0 +1,24 @@
+{
+  "name": "codenow-custom-stack-NodeJS-npm-express-api",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node -r dotenv/config . dotenv_config_path=./codenow/config/.env dotenv_config_debug=true",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "pg": "^8.7.3",
+    "sequelize": "^6.16.2"
+  }
+}
