@@ -13,4 +13,3 @@ EXPOSE 80
 ENV PORT=80
 
 CMD [ "node", "-r", "dotenv/config", ".", "dotenv_config_path=./codenow/config/.env", "dotenv_config_debug=true"]
-
