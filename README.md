@@ -64,8 +64,10 @@ An easy way to get started with an Express server with PostgreSQL with Node.js. 
 
 ### Step 5: connect the app to the database
 1. Create a new connection for your component
-   - name your connection (e.g., `EXPRESS_DEMO_DB`)
-   - select **PostgreSQL** as service type
+   - Name your connection (e.g., `EXPRESS_DEMO_DB`)
+   - Select **PostgreSQL** as service type
+
+Note that if you name your connection anything else than `EXPRESS_DEMO_DB`, you need to update the name of the environment variables used in the code to connect to the database (cf. [`src/models/index.js`](./src/models/index.js)).
 
 ### Step 6: build and package your application
 1. Build your component
